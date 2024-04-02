@@ -1,20 +1,21 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
+    font-family: Impact, sans-serif;
+    background-color: #b3b3b3;
 }
 
 .menu {
-    max-width: 600px;
+    max-width: 1200px;
+    max-height: 5000px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #000000;
+    border-radius: 1px;
+    box-shadow: 0 2px 4px rgba(238, 233, 233, 0.1);
 }
 
 h1 {
     text-align: center;
-    color: #333;
+    color: #90F2FC;
 }
 
 ul {
@@ -23,19 +24,24 @@ ul {
 }
 
 li {
-    margin-bottom: 10px;
+    margin-bottom: 50px;
 }
 
 a {
-    display: block;
-    padding: 10px;
+    width: 100px;
+    height: 45px;
+    display: grid;
+    padding: 30px;
+    margin: 5px;
     background-color: #007bff;
-    color: #fff;
+    color: #90F2FC;
     text-decoration: none;
     text-align: center;
     border-radius: 5px;
+    font-size: 24px;
 }
 
 a:hover {
     background-color: #0056b3;
+
 }
