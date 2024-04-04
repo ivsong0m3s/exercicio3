@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.inicio {
+    padding: 15px;
+    background-color:#232323;
+    color: #fff;
+    text-decoration:none;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+    .quadrado {
+        width: 0;
+        height: 0;
+        background-color: red;
+        animation: aumentar 4s forwards;
+    }
+    
+    @keyframes aumentar {
+        33% {
+            width: 100px;
+            height: 100px;
+            background-color: orange;
+        }
+        66% {
+            width: 200px;
+            height: 200px;
+            background-color: yellow;
+        }
+        100% {
+            width: 200px;
+            height: 200px;
+            background-color: green;
+        }
+    }
