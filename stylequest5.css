@@ -6,17 +6,17 @@ body {
     margin: 0;
 }
 
-.circulo {
+.quadrado {
     width: 100px;
     height: 100px;
     background-color: red;
-    border-radius: 50%;
-    transition: transform 4s;
+    transition: transform 3s;
 }
 
-.circulo:hover {
-    transform: translateX(500px);
+.quadrado:hover {
+    transform: rotate(45deg);
 }
+
 .inicio {
     padding: 15px;
     background-color:#232323;

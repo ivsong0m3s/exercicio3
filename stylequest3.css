@@ -19,3 +19,13 @@ body {
     width: 200px;
     height: 200px;
 }
+.inicio {
+    padding: 15px;
+    background-color:#232323;
+    color: #fff;
+    text-decoration:none;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

@@ -5,9 +5,20 @@ body {
     height: 100vh;
     margin: 0;
 }
-
 .quadrado {
     width: 200px;
     height: 200px;
     background-color: red;
+
+}
+
+.inicio {
+    padding: 15px;
+    background-color:#232323;
+    color: #fff;
+    text-decoration:none;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
