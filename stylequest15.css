@@ -1,0 +1,49 @@
+
+.inicio {
+    padding: 15px;
+    background-color:#038ad8;
+    color: #fff;
+    text-decoration:none;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+.circulo {
+        width: 50px;
+        height: 50px;
+        background-color: red;
+        border-radius: 50%;
+        position: absolute;
+        bottom: 0;
+        animation: quicar 4s ease-in-out infinite, mover 16s linear infinite;
+        
+    }
+    
+    @keyframes quicar {
+        0%, 100% {
+            transform: translateY(0);
+        }
+        50% {
+            transform: translateY(-100px);
+        }
+    }
+    
+    @keyframes mover {
+        0% {
+            left: 0;
+        }
+        100% {
+            left: calc(100vw - 50px);
+        }
+    }

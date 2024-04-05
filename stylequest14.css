@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    position: relative;
+}
+
+.inicio {
+    padding: 15px;
+    background-color:#038ad8;
+    color: #fff;
+    text-decoration:none;
+    position: absolute;
+    left: 0px;
+    top: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.circulo {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-radius: 50%;
+    transition: all 0.5s ease;
+}
+
+.circulo:hover {
+    border-radius: 0;
+    height: 100px;
+}
+

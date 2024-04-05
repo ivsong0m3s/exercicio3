@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.inicio {
+    padding: 15px;
+    background-color:#038ad8;
+    color: #fff;
+    text-decoration:none;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.quadrado {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    animation: pulsar 2s infinite, girar 5s linear infinite;
+}
+
+@keyframes pulsar {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+}
+
+@keyframes girar {
+    to {
+        transform: rotate(360deg);
+    }
+}
